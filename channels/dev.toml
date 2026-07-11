@@ -1,0 +1,18 @@
+# evo-device-audio-ui release-plane channel pointer — dev
+#
+# This file names the current UI bundle version tracked by the `dev`
+# channel. Promotion is a pointer edit: bump `bundle_version` to point
+# at a bundle already present under `bundles/`. Bytes never change on
+# promotion.
+#
+# Sign this file with the evo project release key. Consumers refuse
+# to apply an unsigned or invalidly-signed pointer.
+
+schema_version = 0
+publisher = "org.evoframework"
+channel = "dev"
+updated_at = "2026-07-10T00:00:00Z"
+
+# Placeholder until the first UI bundle is published under `bundles/`.
+# Track 4G promote will land the first release bundle for v0.1.13.
+bundle_version = ""
